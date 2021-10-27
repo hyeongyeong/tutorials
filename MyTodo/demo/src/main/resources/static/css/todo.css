@@ -1,0 +1,84 @@
+.center {
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+}
+
+.content {
+    margin: auto;
+    width: 500px;
+    height: 100%;
+    padding: 100px;
+    box-shadow: 1px 1px 2px 6px grey;
+}
+
+.checkbox-img {
+    size: 10px;
+}
+
+.todo-title {
+    text-align: center;
+    color: #1e90ff;
+}
+
+.todo-list {
+    margin-bottom: 50px;
+}
+
+.todo-create {
+    
+}
+
+.todo-format {
+    text-align: center;
+}
+
+.sub-title {
+    size: 10px;
+    font-weight: bold;
+    color: lightslategray;
+}
+
+.todo-date {
+    font-weight:lighter;
+    color: lightgray;
+}
+
+.left-align {
+    float: right;
+}
+
+.bg-primary {
+    background-color:	#1e90ff;
+}
+
+.text-white {
+    color: white;
+}
+
+.rounded {
+    border-radius: 10px;
+}
+
+.btn {
+    background-color: #1e90ff; /* Blue background */
+    border-radius: 5px;
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 12px 16px; /* Some padding */
+    font-size: 16px; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */
+}
+
+.todo-delete {
+    border: none;
+    background-color: white;
+}
+
+.input-text {
+    border-radius: 5px;
+    padding: 12px 16px;
+    font-size: 16px;
+    width: 300px;
+    height: 10px;
+}
