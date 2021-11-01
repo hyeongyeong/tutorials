@@ -1,0 +1,28 @@
+@import url('../fonts/font.css');
+.nav {
+    border-bottom: 1px solid;
+    border-color: #efefef;
+    background-color: white;
+}
+
+.nav_container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 12rem;
+    align-items: flex-end;
+}
+
+.icon {
+    font-size: 1.2rem;
+    margin: 0 0.5rem;
+}
+
+h2 {
+    display: inline;
+    font-family: 'Dancing Script', cursive;
+}
+
+#search_input {
+    border: solid 1px #dbdbdb;
+    border-radius: 3px;
+}

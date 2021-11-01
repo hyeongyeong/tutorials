@@ -1,0 +1,13 @@
+.board {
+    margin-top: 3rem;
+}
+
+.board_container {
+    display: flex;
+    margin: 1rem;
+    padding: 0.5rem 12rem;
+    align-items: flex-end;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

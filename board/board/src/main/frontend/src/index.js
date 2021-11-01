@@ -1,12 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import TopNavigation from './components/TopNavigation';
+import Board from './pages/BoardMain';
 import reportWebVitals from './reportWebVitals';
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <header>
+      <TopNavigation />
+    </header>
+    <Board />
   </React.StrictMode>,
   document.getElementById('root')
 );

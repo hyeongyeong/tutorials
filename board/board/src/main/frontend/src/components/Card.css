@@ -1,0 +1,28 @@
+.card{
+    border: 1px solid;
+    border-color: #efefef;
+    width: 60vh;
+    height: 60vh;
+    background-color: white;
+}
+
+.head img{
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    border: 1px solid;
+    border-color: efefef;
+}
+
+.card-image img{
+    width: 100%;
+}
+
+.info .icon{
+    font-size: 1.2rem;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+}

@@ -5,7 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b04514d-7704-40b3-9c33-a2b5ee34f315" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../MyTodo/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyTodo/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/board/src/main/frontend/config/env.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/board/src/main/frontend/config/getHttpsConfig.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/board/src/main/frontend/config/jest/babelTransform.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/board/src/main/frontend/config/jest/cssTransform.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/board/src/main/frontend/config/jest/fileTransform.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/board/src/main/frontend/config/modules.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/board/src/main/frontend/config/paths.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/board/src/main/frontend/config/pnpTs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/board/src/main/frontend/config/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/board/src/main/frontend/config/webpackDevServer.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/board/src/main/frontend/scripts/build.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/board/src/main/frontend/scripts/start.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/board/src/main/frontend/scripts/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/board/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/board/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/board/src/main/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/board/src/main/frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/board/src/main/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/board/src/main/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/board/src/main/frontend/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/board/src/main/frontend/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/board/src/main/frontend/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/board/src/main/frontend/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/board/src/main/frontend/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/board/src/main/frontend/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/board/src/main/frontend/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/board/src/main/frontend/src/logo.svg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,24 +95,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/Users/O121020_D/Desktop/tutorials/board/board/build.gradle" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/board/build.gradle" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list />
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
+    <configuration name="WebApplication" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.kcb.board.BoardApplication" />
+      <module name="board.board.main~1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="board [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -134,12 +146,17 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Application.WebApplication" />
+      <item itemvalue="Application.BoardApplication" />
+      <item itemvalue="Gradle.board [build]" />
+      <item itemvalue="Gradle.board [clean]" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.board [build]" />
-        <item itemvalue="Application.BoardApplication" />
         <item itemvalue="Gradle.board [clean]" />
-        <item itemvalue="Gradle.C:/Users/O121020_D/Desktop/tutorials/board/board/build.gradle" />
+        <item itemvalue="Application.BoardApplication" />
       </list>
     </recent_temporary>
   </component>
