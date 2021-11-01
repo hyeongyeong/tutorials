@@ -3,7 +3,7 @@ import "./TopNavigation.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import { faHeart, faCompass, faUser, faSearch} from '@fortawesome/free-regular-svg-icons'
 import { faInstagram } from '@fortawesome/free-brands-svg-icons'
-import {FaSearch, FaRegHeart, FaRegCompass, FaRegUser} from 'react-icons/fa';
+import {FaSearch, FaHome, FaRegPaperPlane,  FaRegPlusSquare, FaRegHeart, FaRegCompass, FaRegUser} from 'react-icons/fa';
 
 function TopNavigation() {
   return (
@@ -14,10 +14,13 @@ function TopNavigation() {
             </div>
             <div class="search"> 
                 <form class="search_form" action="">
-                    <input id="search_input" type="text" name="search" placeholder="검색"/>
+                    <input id="search_input" type="text" name="search" placeholder="&#61442;  검색"/>
                 </form>
             </div>
             <div className="right">
+                <FaHome className="icon home"/>
+                <FaRegPaperPlane className="icon"/>
+                <FaRegPlusSquare className="icon plus"/>
                 <FaRegCompass className="icon"/>
                 <FaRegHeart className="icon"/>
                 <FaRegUser className="icon"/>

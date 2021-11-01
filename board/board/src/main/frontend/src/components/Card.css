@@ -1,9 +1,15 @@
 .card{
     border: 1px solid;
-    border-color: #efefef;
+    border-color: lightgray;
     width: 60vh;
-    height: 60vh;
     background-color: white;
+    margin: 2.2rem;
+}
+
+.head {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .head img{
@@ -11,18 +17,94 @@
     height: 30px;
     width: 30px;
     border: 1px solid;
-    border-color: efefef;
+    border-color: lightgray;
+}
+
+.user-group {
+    display: flex;
+}
+
+#card-name{
+    padding-left: 10px;
+    position: relative;
+    top: -5px;
+    font-size: 1rem ;
+    font-weight: 600;
+}
+
+#card-location {
+    padding-left: 10px;
+    position: relative;
+    top: -2px;
+    font-size: 0.7rem;
 }
 
 .card-image img{
     width: 100%;
 }
 
-.info .icon{
-    font-size: 1.2rem;
+.icons .icon{
+    font-size: 1.5rem;
 }
 
-.info {
+.card-more {
+    color: #808080;
+    font-size: 0.8rem;
+    align-self: center;
+    float: right;
+}
+
+.icons {
     display: flex;
     justify-content: space-between;
+    padding: 10px 10px 10px 0px;
 }
+
+.user-views {
+    padding-top: 10px;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.info{
+    padding: 20px;
+    padding-top: 0px;
+    padding-bottom: 5px;
+}
+
+.card_comment-divider {
+    border: 0;
+    height: 1px;
+    background: #EBECF0;
+}
+
+.add-icon {
+    align-self: center;
+    padding: 10px;
+    padding-right: 0px;
+}
+
+.card_comment-group {
+    display: flex;
+}
+
+.input-form{
+    height: 50px;
+    border: none;
+}
+
+.comment-input {
+    padding: 0px 20px;
+    width: 100%;
+    font-size: 0.9rem;
+}
+
+input:focus { outline: none; }
+
+.comment-submit{
+    border: none;
+    color: skyblue;
+    font-weight: 600;
+    background-color: white;
+    width: 100px;
+} 
