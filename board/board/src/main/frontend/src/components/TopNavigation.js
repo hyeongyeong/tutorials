@@ -1,9 +1,8 @@
 import React from 'react';
 import "./TopNavigation.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { faHeart, faCompass, faUser, faSearch} from '@fortawesome/free-regular-svg-icons'
 import { faInstagram } from '@fortawesome/free-brands-svg-icons'
-import {FaSearch, FaHome, FaRegPaperPlane,  FaRegPlusSquare, FaRegHeart, FaRegCompass, FaRegUser} from 'react-icons/fa';
+import {FaHome, FaRegPaperPlane,  FaRegPlusSquare, FaRegHeart, FaRegCompass, FaRegUser} from 'react-icons/fa';
 
 function TopNavigation() {
   return (

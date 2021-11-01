@@ -1,4 +1,4 @@
-import {FaRegBookmark, FaRegSmile, FaEllipsisH,FaRegHeart, FaRegComment, FaRegShareSquare} from 'react-icons/fa';
+import {FaRegBookmark, FaRegSmile, FaEllipsisH,FaRegHeart, FaRegComment, FaRegPaperPlane} from 'react-icons/fa';
 import "./Card.css"
 import Comment from './Comment';
 function Card(){
@@ -27,7 +27,7 @@ function Card(){
                         <div>
                             <FaRegHeart className="icon"/>
                             <FaRegComment className="icon"/>
-                            <FaRegShareSquare className="icon"/>
+                            <FaRegPaperPlane className="icon"/>
                         </div>
                         <div className="user-views">
                             조회 <span id="views">1234</span>회
