@@ -1,19 +1,12 @@
 import {FaRegBookmark, FaRegSmile, FaEllipsisH,FaRegHeart, FaRegComment, FaRegPaperPlane} from 'react-icons/fa';
 import "./Card.css"
 import Comment from './Comment';
+import UserProfile from './UserProfile/UserProfile';
 function Card(){
     return(
-        
         <div className="card">
             <div className="head">
-                <div className="user-group">
-                    <img id="user-profile" src="/images/profile.jpg" alt="profile"/>
-                    <div className="user"> 
-                        <div id="card-name"> username </div>
-                        <div id="card-location"> location </div>
-                    </div>
-                </div>
-                
+                <UserProfile/>
                 <div className="card-more">
                     <FaEllipsisH className="icon card-more"/>
                 </div>
@@ -43,11 +36,11 @@ function Card(){
                 </div>
             </div>
             
-            <hr class="card_comment-divider"/>
+            <hr className="card_comment-divider"/>
             <form className="card_comment-group">
                 <FaRegSmile className="icon add-icon"/>
-                <input type="text" class="comment-input input-form" placeholder="댓글 달기..."/>
-                <input type="button" class="comment-submit input-form" value="게시"/>
+                <input type="text" className="comment-input input-form" placeholder="댓글 달기..."/>
+                <input type="button" className="comment-submit input-form" value="게시"/>
             </form>
         </div>
     );

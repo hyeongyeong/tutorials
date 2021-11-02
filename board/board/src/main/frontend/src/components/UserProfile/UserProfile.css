@@ -1,0 +1,51 @@
+.user-img{
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    border: 1px solid;
+    border-color: lightgray;
+}
+
+.user-img2X{
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    border: 1px solid;
+    border-color: lightgray;
+}
+
+.user-group {
+    display: flex;
+    padding: 3px 0px;
+}
+
+#card-name{
+    padding-left: 10px;
+    position: relative;
+    top: -5px;
+    font-size: 1rem ;
+    font-weight: 600;
+}
+
+#card-location {
+    padding-left: 10px;
+    position: relative;
+    top: -2px;
+    font-size: 0.7rem;
+}
+
+#card-name2X{
+    padding-left: 10px;
+    position: relative;
+    top: 8px;
+    font-size: 1rem ;
+    font-weight: 600;
+}
+
+#card-location2X {
+    padding-left: 10px;
+    position: relative;
+    top: 12px;
+    font-size: 0.7rem;
+    color: #808080;
+}

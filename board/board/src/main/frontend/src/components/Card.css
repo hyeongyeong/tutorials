@@ -12,33 +12,6 @@
     justify-content: space-between;
 }
 
-.head img{
-    border-radius: 50%;
-    height: 30px;
-    width: 30px;
-    border: 1px solid;
-    border-color: lightgray;
-}
-
-.user-group {
-    display: flex;
-}
-
-#card-name{
-    padding-left: 10px;
-    position: relative;
-    top: -5px;
-    font-size: 1rem ;
-    font-weight: 600;
-}
-
-#card-location {
-    padding-left: 10px;
-    position: relative;
-    top: -2px;
-    font-size: 0.7rem;
-}
-
 .card-image img{
     width: 100%;
 }

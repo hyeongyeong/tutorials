@@ -11,8 +11,8 @@ function TopNavigation() {
             <div className="left" >
                 <FontAwesomeIcon icon={faInstagram} className="icon" /><h2>| instagram </h2>  
             </div>
-            <div class="search"> 
-                <form class="search_form" action="">
+            <div className="search"> 
+                <form className="search_form" action="">
                     <input id="search_input" type="text" name="search" placeholder="&#61442;  검색"/>
                 </form>
             </div>

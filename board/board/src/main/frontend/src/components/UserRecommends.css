@@ -1,0 +1,24 @@
+.user_recommends {
+    width : 30vh;
+}
+
+.recommend-info {
+    margin: 1rem 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.recommend-info-left {
+    color: #949494;
+    font-weight: 600;
+}
+
+.recommend-info-right {
+    color: black;
+    font-weight: 600;
+    font-size: smaller;
+}
+
+.recommend-list {
+    padding: 2px 0px;
+}

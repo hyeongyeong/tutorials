@@ -1,0 +1,12 @@
+.recommend-follow-group{
+    margin: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.recommend-follow-btn {
+    color: dodgerblue;
+    font-size: smaller;
+    top: 10px;
+    position: relative;
+}
