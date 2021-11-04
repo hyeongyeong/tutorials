@@ -1,10 +1,10 @@
 import "./UserProfileFollow.css"
 import UserProfile from "./UserProfile"
 
-function UserProfileFollow() {
+function UserProfileFollow(props) {
     return (
         <div className="recommend-follow-group">
-            <UserProfile/>
+            <UserProfile data={props.data}/>
             <div className="recommend-follow-btn"> 팔로우 </div>
         </div>
     );

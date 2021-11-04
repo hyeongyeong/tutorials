@@ -1,12 +1,12 @@
 import "./UserProfile.css"
 
-function UserProfile2X() {
+function UserProfile2X(props) {
     return(
         <div className="user-group">
-            <img className="user-img2X" src="/images/profile.jpg" alt="profile"/>
+            <img className="user-img2X" src={props.data.path} alt="profile"/>
             <div className="user"> 
-                <div id="card-name2X"> username </div>
-                <div id="card-location2X"> location </div>
+                <div id="card-name2X"> {props.data.username} </div>
+                <div id="card-location2X"> {props.data.location} </div>
             </div>
         </div>
     );

@@ -7,7 +7,7 @@ function Board() {
     const data = [
         {
             user : {
-                path: "/images/profile.jpg",
+                path: "/images/profile/gyeong.png",
                 username : "소개팅_D-Day",
                 location : "성남시 분당구 정자역"
             },
@@ -27,6 +27,35 @@ function Board() {
             ]
         },
     ];
+    const user = {
+        user : {
+            path: "/images/profile/wook.jpg",
+            username : "욱이",
+            location : "성남시 분당구 정자역"
+        },
+        recommends : 
+        [
+                {
+                    path: "/images/profile.jpg",
+                    username : "소개팅_D-Day",
+                    location : "성남시 분당구 정자역"
+                },
+                {
+                    path: "/images/profile.jpg",
+                    username : "21.1.1",
+                    location : "대부도"
+                },{
+                    path: "/images/profile.jpg",
+                    username : "21.1.24",
+                    location : "서울 식물원"
+                }
+                ,{
+                    path: "/images/profile.jpg",
+                    username : "21.2.28",
+                    location : "강릉"
+                }
+        ]
+    }
 
     return(
         <div className="board">
@@ -37,7 +66,7 @@ function Board() {
                 <div className="board_right">
                     <div className="right_nav">
                         <div id="fixed_nav">
-                            {/* <UserRecommends data={data[0].user}/> */}
+                            <UserRecommends data={user}/>
                         </div>
                     </div>
                 </div>
