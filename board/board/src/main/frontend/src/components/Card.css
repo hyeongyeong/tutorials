@@ -12,8 +12,9 @@
     justify-content: space-between;
 }
 
-.card-image .image-slider{
+.card-image #image-slider{
     width: 100% !important;
+    height: 100% !important;
 }
 
 .icons .icon{

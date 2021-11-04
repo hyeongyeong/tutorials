@@ -1,27 +1,22 @@
+import React from 'react';
 import {FaRegBookmark, FaRegSmile, FaEllipsisH,FaRegHeart, FaRegComment, FaRegPaperPlane} from 'react-icons/fa';
 import "./Card.css"
 import Comment from './Comment';
 import UserProfile from './UserProfile/UserProfile';
 import SimpleImageSlider from "react-simple-image-slider";
 
-const images = [
-    { url: "/images/card_image.jpg" },
-    { url: "/images/card_image.jpg" },
-    { url: "/images/card_image.jpg" },
-    { url: "/images/card_image.jpg" },
-  ];
-
-function Card(){
+function Card(props){
+    console.log(props, "card")
     return(
         <div className="card">
             <div className="head">
-                <UserProfile/>
+                <UserProfile data={props.data.user}/>
                 <div className="card-more">
                     <FaEllipsisH className="icon card-more"/>
                 </div>
             </div>
             <div className="card-image">
-                <SimpleImageSlider className="image-slider" width={20} height={20} images={images} showBullets={true} showNavs={true} />
+                <SimpleImageSlider id="image-slider" width={600} height={600} images={props.data.images} showBullets={false} showNavs={true} />
             </div>
             <div className="info">
                 <div className="icons">
@@ -40,8 +35,8 @@ function Card(){
                     </div>
                 </div>
                 <div className="card_comment">
-                    <Comment />
-                    <Comment />
+                    <Comment data={props.data.comments[0]}/>
+                    <Comment data={props.data.comments[1]}/>
                 </div>
             </div>
             

@@ -1,12 +1,13 @@
 import "./UserProfile.css"
+import React from 'react';
 
-function UserProfile() {
+function UserProfile(props) {
     return(
         <div className="user-group">
-            <img className="user-img" src="/images/profile.jpg" alt="profile"/>
+            <img className="user-img" src={props.data.path} alt="profile"/>
             <div className="user"> 
-                <div id="card-name"> username </div>
-                <div id="card-location"> location </div>
+                <div id="card-name"> {props.data.username} </div>
+                <div id="card-location"> {props.data.location} </div>
             </div>
         </div>
     );

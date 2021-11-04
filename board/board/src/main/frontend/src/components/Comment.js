@@ -1,12 +1,13 @@
 import "./Comment.css"
-function Comment(){
+import React from 'react';
+function Comment(props){
     return(
         <div className="comment-group">
             <span id="comment-name">
-                username
+                {props.data.username}
             </span>
             <span id="comment-content">
-                content
+                {props.data.content}
             </span>
         </div>
     );
