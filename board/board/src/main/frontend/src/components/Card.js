@@ -2,6 +2,15 @@ import {FaRegBookmark, FaRegSmile, FaEllipsisH,FaRegHeart, FaRegComment, FaRegPa
 import "./Card.css"
 import Comment from './Comment';
 import UserProfile from './UserProfile/UserProfile';
+import SimpleImageSlider from "react-simple-image-slider";
+
+const images = [
+    { url: "/images/card_image.jpg" },
+    { url: "/images/card_image.jpg" },
+    { url: "/images/card_image.jpg" },
+    { url: "/images/card_image.jpg" },
+  ];
+
 function Card(){
     return(
         <div className="card">
@@ -12,7 +21,7 @@ function Card(){
                 </div>
             </div>
             <div className="card-image">
-                <img src="/images/card_image.jpg" alt="image"/>
+                <SimpleImageSlider className="image-slider" width={20} height={20} images={images} showBullets={true} showNavs={true} />
             </div>
             <div className="info">
                 <div className="icons">
