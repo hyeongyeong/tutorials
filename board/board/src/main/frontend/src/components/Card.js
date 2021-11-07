@@ -6,7 +6,7 @@ import UserProfile from './UserProfile/UserProfile';
 import SimpleImageSlider from "react-simple-image-slider";
 
 function Card(props){
-    console.log(props, "card")
+    const comments = props.data.comments.map(comment => <Comment data={comment}></Comment>);
     return(
         <div className="card">
             <div className="head">
@@ -35,8 +35,7 @@ function Card(props){
                     </div>
                 </div>
                 <div className="card_comment">
-                    <Comment data={props.data.comments[0]}/>
-                    <Comment data={props.data.comments[1]}/>
+                    {comments}
                 </div>
             </div>
             

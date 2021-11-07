@@ -4,30 +4,32 @@ import Card from "../components/Card"
 import UserRecommends from '../components/UserRecommends';
 
 function Board() {
-    const data = [
-        {
-            user : {
-                path: "/images/profile/gyeong.png",
-                username : "소개팅_D-Day",
-                location : "성남시 분당구 정자역"
+    const data = {
+        cards : [
+            {
+                user : {
+                    path: "/images/profile/gyeong.png",
+                    username : "소개팅_D-Day",
+                    location : "성남시 분당구 정자역"
+                },
+                images : [
+                    { url: "/images/meet/1.jpg" },
+                    { url: "/images/meet/2.jpg" },
+                    { url: "/images/meet/3.jpg" },
+                    { url: "/images/meet/4.jpg" },
+                    { url: "/images/meet/5.jpg" },
+                    { url: "/images/meet/6.jpg" },
+                    { url: "/images/meet/7.jpg" },
+                    { url: "/images/meet/8.jpg" },
+                ],
+                comments : [
+                    { username: "소개팅_D-Day", content: "그 땐, 그랬었지.."},
+                    { username: "경이", content: "오빤 어떤게 기억에 남아?"}
+                ]
             },
-            images : [
-                { url: "/images/meet/1.jpg" },
-                { url: "/images/meet/2.jpg" },
-                { url: "/images/meet/3.jpg" },
-                { url: "/images/meet/4.jpg" },
-                { url: "/images/meet/5.jpg" },
-                { url: "/images/meet/6.jpg" },
-                { url: "/images/meet/7.jpg" },
-                { url: "/images/meet/8.jpg" },
-            ],
-            comments : [
-                { username: "소개팅_D-Day", content: "그 땐, 그랬었지.."},
-                { username: "경이", content: "오빤 어떤게 기억에 남아?"}
-            ]
-        },
-    ];
-    const user = {
+        ]
+    };
+    const user = { 
         user : {
             path: "/images/profile/wook.jpg",
             username : "욱이",
@@ -55,18 +57,20 @@ function Board() {
                     location : "강릉"
                 }
         ]
-    }
+    };
+        
+    const cards = data.cards.map(card => <Card data={card}></Card>);
 
     return(
         <div className="board">
             <div className="board_container">
                 <div className="board_left">
-                    <Card data={data[0]}/>
+                    {cards}
                 </div>
                 <div className="board_right">
                     <div className="right_nav">
                         <div id="fixed_nav">
-                            <UserRecommends data={user}/>
+                            <UserRecommends data={user} />
                         </div>
                     </div>
                 </div>
